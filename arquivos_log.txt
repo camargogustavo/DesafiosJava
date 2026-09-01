@@ -1,2 +1,0 @@
-Saque no valor: 100.0 realizado com sucesso
-Saldo insuficiente! | Valor do saque:  10000.0
