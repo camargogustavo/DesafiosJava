@@ -32,17 +32,24 @@ Consolidar, na prática, os conceitos de Java estudados através do curso **Mara
 DesafiosJava/
 ├── desafio-02-folha-pagamento/
 │   ├── README.md
+|────|domain/
 │   ├── Funcionario.java
 │   ├── FuncionarioCLT.java
 │   ├── FuncionarioComissado.java
+|────|inter/
 │   ├── Bonificavel.java
 │   ├── Cargo.java
-│   └── FuncionarioTest.java
+|────|test/
+│    └── FuncionarioTest.java
+
 ├── desafio-03-validacao-saque/
 │   ├── README.md
+|────|domain/
 │   ├── ContaBancaria.java
+|────|exception/
 │   ├── ValorInvalidoException.java
 │   ├── SaldoInsuficienteException.java
+|────|test/
 │   └── SaqueTest.java
 └── README.md
 ```
@@ -53,8 +60,8 @@ Cada pasta de desafio tem seu próprio `README.md`, explicando o problema resolv
 
 | Desafio | Descrição | Conceitos aplicados | Status |
 |---|---|---|---|
-| [02 — Folha de Pagamento](./desafio-02-folha-pagamento) | Cálculo de salário e bônus para diferentes tipos de funcionário | Classe abstrata, herança, interface, enum, polimorfismo, `toString()` | ✅ Concluído |
-| [03 — Validação de Saque](./desafio-03-validacao-saque) | Validação de saque bancário com log de tentativas em arquivo | Exceções checked customizadas, `try-with-resources`, separação de responsabilidades | ✅ Concluído |
+| [02 — Folha de Pagamento](src/FolhaPagamento) | Cálculo de salário e bônus para diferentes tipos de funcionário | Classe abstrata, herança, interface, enum, polimorfismo, `toString()` | ✅ Concluído |
+| [03 — Validação de Saque](src/ValidarSaque) | Validação de saque bancário com log de tentativas em arquivo | Exceções checked customizadas, `try-with-resources`, separação de responsabilidades | ✅ Concluído |
 
 ## 🛠️ Tecnologias
 
