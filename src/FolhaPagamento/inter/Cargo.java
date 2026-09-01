@@ -1,4 +1,4 @@
-package FolhaPamento.inter;
+package FolhaPagamento.inter;
 
 public enum Cargo {
     JUNIOR,

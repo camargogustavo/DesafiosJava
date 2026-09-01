@@ -1,6 +1,6 @@
-package FolhaPamento.domain;
+package FolhaPagamento.domain;
 
-import FolhaPamento.inter.Cargo;
+import FolhaPagamento.inter.Cargo;
 
 public abstract class Funcionario {
     private String nome;

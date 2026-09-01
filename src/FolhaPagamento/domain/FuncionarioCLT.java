@@ -1,7 +1,7 @@
-package FolhaPamento.domain;
+package FolhaPagamento.domain;
 
 
-import FolhaPamento.inter.Cargo;
+import FolhaPagamento.inter.Cargo;
 
 public class FuncionarioCLT extends Funcionario {
     public FuncionarioCLT(String nome, double salarioBase, Cargo cargo) {

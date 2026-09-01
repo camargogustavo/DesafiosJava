@@ -1,7 +1,7 @@
-package FolhaPamento.domain;
+package FolhaPagamento.domain;
 
-import FolhaPamento.inter.Bonificavel;
-import FolhaPamento.inter.Cargo;
+import FolhaPagamento.inter.Bonificavel;
+import FolhaPagamento.inter.Cargo;
 
 public class FuncionarioComissado extends Funcionario implements Bonificavel {
     private double totalVendas;
