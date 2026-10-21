@@ -4,6 +4,7 @@ public abstract class EntregaBase implements Entregavel {
     private TipoEntrega tipoEntrega;
     private double km;
 
+
     public EntregaBase(TipoEntrega tipoEntrega, double km) {
         if (tipoEntrega == null) {
             throw new IllegalArgumentException("O tipo da entrega nao pode ser nulo");
@@ -25,10 +26,9 @@ public abstract class EntregaBase implements Entregavel {
 
     @Override
     public String toString() {
-        return String.format(getClass().getSimpleName() + " (%s) - Frete para %.2f km: R$ %.2f",
-                getTipoEntrega(), getKm(), calcularFrete());
+        return String.format("%s (%s) - Frete para %.2f km: R$ %.2f",
+                getClass().getSimpleName(), getTipoEntrega(), getKm(), calcularFrete());
     }
-}
 }
 
 
