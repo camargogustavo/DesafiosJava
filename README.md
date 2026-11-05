@@ -19,7 +19,7 @@ Consolidar, na prática, os conceitos de Java estudados através do curso **Mara
 ## 📌 Próximos tópicos (roadmap)
 
 - [ ] Coleções (List, Set, Queue)
-- [ ] Generics
+- [ ] generics
 - [ ] Streams
 - [ ] Threads / Concorrência
 - [ ] JDBC (conexão com banco de dados)

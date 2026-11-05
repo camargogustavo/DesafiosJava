@@ -5,7 +5,7 @@
     import java.util.*;
 
 
-    public class LivrosApp {
+    public class LivroApp {
         private static <T> void imprimir(Collection<T> lista) {
             for (T item : lista) {
                 System.out.println(item);
