@@ -1,10 +1,10 @@
 package parametrizacao.test;
 
-import parametrizacao.dominio.Carro;
-import parametrizacao.interfaces.RegraCarro;
+import parametrizacao.domain.Carro;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Predicate;
 
 public class CarroTest {
     public static void main(String[] args) {
@@ -25,18 +25,18 @@ public class CarroTest {
         System.out.println(filter(carros, car -> car.getAno() > 2020));
         System.out.println(filter(carros, car -> car.getPreco() <= 60000));
         System.out.println(filter(carros, car -> car.getCor().equals("prata") && car.getPreco() > 80000));
-        System.out.println(filter(carros, new RegraCarro() {
+        System.out.println(filter(carros, new Predicate<Carro>(){
             @Override
-            public boolean testar(Carro carro) {
+            public boolean test(Carro carro) {
                 return carro.getPreco() <= 60000;
             }
         }));
     }
 
-    public static List<Carro> filter(List<Carro> carros, RegraCarro regra) {
+    public static List<Carro> filter(List<Carro> carros, Predicate<Carro> predicate) {
         List<Carro> filterCars = new ArrayList<>();
         for (Carro carro : carros) {
-            if (regra.testar(carro)) {
+            if (predicate.test(carro)) {
                 filterCars.add(carro);
             }
         }

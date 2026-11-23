@@ -1,6 +1,6 @@
-package parametrizacao.dominio;
+package parametrizacao.domain;
 
-public class Carro  {
+public class Carro {
     private String cor;
     private String modelo;
     private int ano;
@@ -15,7 +15,7 @@ public class Carro  {
 
     @Override
     public String toString() {
-       return String.format("%s | %s | %d | R$ %,.2f" , getModelo(), getCor(), getAno(), getPreco());
+        return String.format("%s | %s | %d | R$ %,.2f" , getModelo(), getCor(), getAno(), getPreco());
     }
 
     public String getCor() {
