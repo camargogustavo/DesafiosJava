@@ -2,6 +2,7 @@ package lambdas.test;
 
 import lambdas.dominio.Funcionario;
 
+import javax.swing.event.ListDataEvent;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Consumer;
@@ -43,6 +44,15 @@ public class FuncionarioTest {
         System.out.println(nomesAtvios1);
 
         executar(funcionarioList, System.out::println);
+
+        List<Funcionario> funcionariosTIComAumento = filtrar(funcionarioList, f -> f.getSetor().equals("TI") && f.isAtivo());
+        System.out.println(funcionariosTIComAumento);
+        executar(funcionariosTIComAumento, ti -> ti.setSalario(ti.getSalario()*1.10));
+        System.out.println(funcionariosTIComAumento);
+
+        executar(funcionarioList, f -> System.out.println(String.format("%s: R$ %,.2f", f.getNome(), f.getSalario())));
+
+
     }
 
     private static <T> List<T> filtrar(List<T> lista, Predicate<T> predicate) {

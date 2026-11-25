@@ -37,4 +37,8 @@ public class Funcionario {
     public boolean isAtivo() {
         return ativo;
     }
+
+    public void setAtivo(boolean ativo) {
+        this.ativo = ativo;
+    }
 }
