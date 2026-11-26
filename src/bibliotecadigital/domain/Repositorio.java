@@ -1,8 +1,10 @@
 package bibliotecadigital.domain;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
+import java.util.function.Function;
 import java.util.function.Predicate;
 
 public class Repositorio<T> {
@@ -13,33 +15,40 @@ public class Repositorio<T> {
 
     }
 
-    public List<T> listarTodos() {
-        return itens;
+    public <R> List<R> transformar(Function<T, R> function) {
+        List<R> result = new ArrayList<>();
+        for (T t : itens) {
+            result.add(function.apply(t));
+        }
+        return result;
     }
 
-    public List<T> filtar(Predicate<T> predicate) {
+
+    public List<T> listarTodos() {
+        return Collections.unmodifiableList(itens);
+    }
+
+    public List<T> filtrar(Predicate<T> predicate) {
         List<T> result = new ArrayList<>();
         for (T t : itens) {
             if (predicate.test(t)) {
                 result.add(t);
-
             }
         }
         return result;
     }
 
     public Optional<T> buscarPrimeiro(Predicate<T> regra) {
-        List<T> result = new ArrayList<>();
         for (T t : itens) {
             if (regra.test(t)) {
-                result.add(t);
+                return Optional.of(t);
             }
         }
-        return Optional.of(result.get(0));
-
+        return Optional.empty();
     }
 
     public void removerSe(Predicate<T> regra) {
         itens.removeIf(regra::test);
     }
+
 }

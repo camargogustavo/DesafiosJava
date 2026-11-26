@@ -26,7 +26,7 @@ public class Livro implements Comparable<Livro> {
 
     @Override
     public String toString() {
-        return String.format("%s | %s | %d | %s | $s", getTitulo(), getAutor(), getAno(), getGenero().getDescricao(), isDisponivel() ? "Disponivel" : "emprestado");
+        return String.format("%s | %s | %d | %s | %s", getTitulo(), getAutor(), getAno(), getGenero().getDescricao(), isDisponivel() ? "disponível" : "emprestado");
     }
 
 
