@@ -1,6 +1,6 @@
-package PagavelFree.domain;
+package pagavelfree.domain;
 
-import PagavelFree.inter.Pagavel;
+import pagavelfree.inter.Pagavel;
 
 public abstract class Profissional implements Pagavel  {
     private String nome;

@@ -1,4 +1,4 @@
-package ValidarSaque.error;
+package validarsaque.error;
 
 public class SaldoInsuficienteException extends Exception{
     public SaldoInsuficienteException (String mensagem){

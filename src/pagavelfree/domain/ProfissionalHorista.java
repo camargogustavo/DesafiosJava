@@ -1,4 +1,4 @@
-package PagavelFree.domain;
+package pagavelfree.domain;
 
 public class ProfissionalHorista extends Profissional{
     private double valorHora = 20;

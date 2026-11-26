@@ -1,9 +1,9 @@
-package PagavelFree.test;
+package pagavelfree.test;
 
-import PagavelFree.domain.Profissional;
-import PagavelFree.domain.ProfissionalFreelancer;
-import PagavelFree.domain.ProfissionalHorista;
-import PagavelFree.domain.ProfissionalMensalista;
+import pagavelfree.domain.Profissional;
+import pagavelfree.domain.ProfissionalFreelancer;
+import pagavelfree.domain.ProfissionalHorista;
+import pagavelfree.domain.ProfissionalMensalista;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,11 +1,11 @@
-package FolhaPagamento.test;
+package folhapagamento.test;
 
 import java.util.ArrayList;
 
-import FolhaPagamento.domain.Funcionario;
-import FolhaPagamento.domain.FuncionarioCLT;
-import FolhaPagamento.domain.FuncionarioComissado;
-import FolhaPagamento.inter.Cargo;
+import folhapagamento.domain.Funcionario;
+import folhapagamento.domain.FuncionarioCLT;
+import folhapagamento.domain.FuncionarioComissado;
+import folhapagamento.inter.Cargo;
 
 public class FuncionarioTest {
     public static void main(String[] args) {

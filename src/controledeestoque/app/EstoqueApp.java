@@ -1,9 +1,9 @@
-package controleDeEstoque.app;
+package controledeestoque.app;
 
-import controleDeEstoque.domain.Estoque;
-import controleDeEstoque.domain.Produto;
-import controleDeEstoque.exception.EstoqueInsuficienteException;
-import controleDeEstoque.exception.ProdutoNaoEncontradoException;
+import controledeestoque.domain.Estoque;
+import controledeestoque.domain.Produto;
+import controledeestoque.exception.EstoqueInsuficienteException;
+import controledeestoque.exception.ProdutoNaoEncontradoException;
 
 public class EstoqueApp {
     public static void main(String[] args) {

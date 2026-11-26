@@ -1,6 +1,6 @@
-package Serializable.test;
+package serializable.test;
 
-import Serializable.domain.Usuario;
+import serializable.domain.Usuario;
 
 import java.io.*;
 

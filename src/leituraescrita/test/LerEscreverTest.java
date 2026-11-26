@@ -1,6 +1,6 @@
-package leituraEscrita.test;
+package leituraescrita.test;
 
-import leituraEscrita.domain.EscreveLer;
+import leituraescrita.domain.EscreveLer;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,7 +1,7 @@
-package Excecoes.test;
+package excecoes.test;
 
-import Excecoes.domain.Pessoa;
-import Excecoes.exception.IdadeInvalidaException;
+import excecoes.domain.Pessoa;
+import excecoes.exception.IdadeInvalidaException;
 
 public class PessoaTest {
     public static void main(String[] args) {

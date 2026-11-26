@@ -1,4 +1,4 @@
-package leituraEscrita.domain;
+package leituraescrita.domain;
 
 import java.io.*;
 import java.util.List;

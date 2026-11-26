@@ -1,9 +1,7 @@
-package MultiplasException.test;
+package multiplasexception.test;
 
-import MultiplasException.domain.Calculadora;
-import MultiplasException.error.DivisaoPorZeroException;
-
-import java.util.ArrayList;
+import multiplasexception.domain.Calculadora;
+import multiplasexception.error.DivisaoPorZeroException;
 
 public class CalculadoraTest {
     public static void main(String[] args) {

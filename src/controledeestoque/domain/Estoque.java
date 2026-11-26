@@ -1,7 +1,7 @@
-package controleDeEstoque.domain;
+package controledeestoque.domain;
 
-import controleDeEstoque.exception.EstoqueInsuficienteException;
-import controleDeEstoque.exception.ProdutoNaoEncontradoException;
+import controledeestoque.exception.EstoqueInsuficienteException;
+import controledeestoque.exception.ProdutoNaoEncontradoException;
 
 import java.util.HashMap;
 import java.util.Map;

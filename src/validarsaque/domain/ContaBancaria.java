@@ -1,7 +1,7 @@
-package ValidarSaque.domain;
+package validarsaque.domain;
 
-import ValidarSaque.error.SaldoInsuficienteException;
-import ValidarSaque.error.ValorInvalidoException;
+import validarsaque.error.SaldoInsuficienteException;
+import validarsaque.error.ValorInvalidoException;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;

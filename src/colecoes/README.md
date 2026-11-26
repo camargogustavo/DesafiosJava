@@ -21,8 +21,8 @@ Dois alunos são considerados o mesmo aluno quando têm o **mesmo CPF**.
 | `Set` / `LinkedHashSet` | Remover duplicados mantendo a ordem de inserção |
 | `equals()` e `hashCode()` | Definir que dois alunos são iguais pelo CPF |
 | `Comparator` | Duas regras de ordenação separadas (nome e idade) |
-| `Map` / `HashMap` | Contagem de alunos por faixa etária |
-| `Map.Entry` e `entrySet()` | Percorrer chave e valor do Map ao mesmo tempo |
+| `map` / `HashMap` | Contagem de alunos por faixa etária |
+| `map.Entry` e `entrySet()` | Percorrer chave e valor do map ao mesmo tempo |
 | `Collection` como parâmetro | Um único método `imprimir()` que aceita List e Set |
 
 ## Estrutura do projeto
@@ -68,7 +68,7 @@ alunosOrdenados.sort(new AlunoIdadeComparator());
 - **Por idade:** Faisca (1), Fumaca (2), Gustavo (20), Alana (37), Andre (38)
 
 ### Etapa 4 — Contagem por faixa etária
-Cada aluno único é classificado em uma faixa pelo método `descobrirFaixaEtaria()`, e a contagem é feita em um `Map<String, Integer>` com o padrão `containsKey` / `get` / `put`.
+Cada aluno único é classificado em uma faixa pelo método `descobrirFaixaEtaria()`, e a contagem é feita em um `map<String, Integer>` com o padrão `containsKey` / `get` / `put`.
 
 | Faixa | Quantidade |
 |---|---|
@@ -78,7 +78,7 @@ Cada aluno único é classificado em uma faixa pelo método `descobrirFaixaEtari
 
 ## O que aprendi
 
-- **Set recusa, Map substitui.** Ao receber um elemento repetido, o Set ignora o novo e mantém o antigo. O Map, ao receber uma chave repetida, troca o valor antigo pelo novo.
+- **Set recusa, map substitui.** Ao receber um elemento repetido, o Set ignora o novo e mantém o antigo. O map, ao receber uma chave repetida, troca o valor antigo pelo novo.
 - **`equals()` e `hashCode()` andam juntos.** O `hashCode()` indica onde procurar e o `equals()` confirma se é igual. Sobrescrever só o `equals()` faz o `HashSet` aceitar duplicados sem nenhum erro.
 - **Sem `equals()` sobrescrito, a comparação é pelo endereço na memória**, e não pelo conteúdo do objeto.
 - **Comparable define uma ordem só, dentro da classe. Comparator permite várias, fora dela.**

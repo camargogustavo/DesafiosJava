@@ -1,4 +1,4 @@
-package controleDeEstoque.exception;
+package controledeestoque.exception;
 
 public class EstoqueInsuficienteException extends Exception {
     public EstoqueInsuficienteException(String message) {

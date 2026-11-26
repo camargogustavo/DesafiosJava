@@ -1,6 +1,6 @@
-package Conta.test;
+package conta.test;
 
-import Conta.domain.ContaPoupanca;
+import conta.domain.ContaPoupanca;
 
 public class ContaTest {
     public static void main(String[] args) {

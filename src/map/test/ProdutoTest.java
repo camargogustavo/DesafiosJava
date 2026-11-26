@@ -1,6 +1,6 @@
-package Map.test;
+package map.test;
 
-import Map.domain.Produto;
+import map.domain.Produto;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -1,4 +1,4 @@
-package FolhaPagamento.inter;
+package folhapagamento.inter;
 
 
 public interface Bonificavel {

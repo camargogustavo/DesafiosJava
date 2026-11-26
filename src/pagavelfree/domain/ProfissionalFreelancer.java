@@ -1,4 +1,4 @@
-package PagavelFree.domain;
+package pagavelfree.domain;
 
 public class ProfissionalFreelancer extends Profissional {
     private double valorProjeto;

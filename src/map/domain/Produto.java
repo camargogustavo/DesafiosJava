@@ -1,4 +1,4 @@
-package Map.domain;
+package map.domain;
 
 public class Produto {
     private String nome;

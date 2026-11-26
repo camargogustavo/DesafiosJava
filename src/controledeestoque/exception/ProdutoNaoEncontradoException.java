@@ -1,4 +1,4 @@
-package controleDeEstoque.exception;
+package controledeestoque.exception;
 
 public class ProdutoNaoEncontradoException extends Exception {
     public ProdutoNaoEncontradoException(String message) {

@@ -1,9 +1,9 @@
-package ValidarSaque.test;
+package validarsaque.test;
 
 
-import ValidarSaque.domain.ContaBancaria;
-import ValidarSaque.error.SaldoInsuficienteException;
-import ValidarSaque.error.ValorInvalidoException;
+import validarsaque.domain.ContaBancaria;
+import validarsaque.error.SaldoInsuficienteException;
+import validarsaque.error.ValorInvalidoException;
 import java.nio.file.Path;
 import java.util.Scanner;
 

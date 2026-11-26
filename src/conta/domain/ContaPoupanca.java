@@ -1,4 +1,4 @@
-package Conta.domain;
+package conta.domain;
 
 public class ContaPoupanca {
     private double saldo;

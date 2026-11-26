@@ -1,6 +1,6 @@
-package Excecoes.domain;
+package excecoes.domain;
 
-import Excecoes.exception.IdadeInvalidaException;
+import excecoes.exception.IdadeInvalidaException;
 
 public class Pessoa {
     private int idade;

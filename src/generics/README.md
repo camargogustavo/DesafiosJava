@@ -9,7 +9,7 @@ Sequência de seis exercícios curtos para reforçar os pontos de **Coleções**
 | 1 | Comparable | `generics` |
 | 2 | TreeSet e TreeMap | `generics` |
 | 3 | Iterator, `removeIf` e `ConcurrentModificationException` | `iterator` |
-| 4 | `getOrDefault` | `iterator` |
+| 4 | `getordefault` | `iterator` |
 | 5 | Queue, PriorityQueue e Deque (pilha) | `queue` |
 | 6 | Generics: classe genérica, método com `<T>`, restrição e wildcards | `generics` |
 
@@ -31,7 +31,7 @@ A classe `Livros` implementa `Comparable<Livros>` e define a **ordem natural por
 
 **Aprendizados**
 - **HashSet decide duplicados pelo `equals`/`hashCode`. TreeSet decide pelo `compareTo`.** Se o `compareTo` retorna zero, o TreeSet considera os objetos iguais.
-- **Map substitui, Set recusa.** No Map, o último `put` na mesma chave vence, e o `size()` não muda.
+- **map substitui, Set recusa.** No map, o último `put` na mesma chave vence, e o `size()` não muda.
 
 ## 3. Lista de Tarefas — Iterator e removeIf
 
@@ -44,17 +44,17 @@ A classe `Livros` implementa `Comparable<Livros>` e define a **ordem natural por
 - Criar o Iterator **antes** de terminar de montar a lista também gera a exceção.
 - Durante a repetição, quem remove é o **Iterator** ou o **`removeIf`**.
 
-## 4. Contagem por prioridade — getOrDefault
+## 4. Contagem por prioridade — getordefault
 
 A contagem de tarefas por prioridade foi feita em uma linha, sem `if`:
 
 ```java
-contagem.put(prioridade, contagem.getOrDefault(prioridade, 0) + 1);
+contagem.put(prioridade, contagem.getordefault(prioridade, 0) + 1);
 ```
 
 **Aprendizados**
-- O `getOrDefault` evita o `NullPointerException` de somar 1 a um `null`.
-- Ele **só lê**: nunca adiciona nada ao Map. Quem grava é o `put`.
+- O `getordefault` evita o `NullPointerException` de somar 1 a um `null`.
+- Ele **só lê**: nunca adiciona nada ao map. Quem grava é o `put`.
 - Para a saída sair sempre em ordem de chave, usa-se `TreeMap`.
 
 ## 5. Pronto-socorro — Queue, PriorityQueue e Deque

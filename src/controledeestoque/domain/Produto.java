@@ -1,4 +1,4 @@
-package controleDeEstoque.domain;
+package controledeestoque.domain;
 
 public class Produto {
     private String nome;

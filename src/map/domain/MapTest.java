@@ -1,4 +1,4 @@
-package Map.domain;
+package map.domain;
 
 import java.util.HashMap;
 import java.util.Map;
