@@ -1,4 +1,4 @@
-package fixacaoenum.dominio;
+package fixacaoenum.domain;
 
 import fixacaoenum.inter.Vendavel;
 

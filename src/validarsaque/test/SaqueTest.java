@@ -2,8 +2,8 @@ package validarsaque.test;
 
 
 import validarsaque.domain.ContaBancaria;
-import validarsaque.error.SaldoInsuficienteException;
-import validarsaque.error.ValorInvalidoException;
+import validarsaque.exception.SaldoInsuficienteException;
+import validarsaque.exception.ValorInvalidoException;
 import java.nio.file.Path;
 import java.util.Scanner;
 

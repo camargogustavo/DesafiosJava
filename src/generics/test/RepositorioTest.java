@@ -1,8 +1,8 @@
 package generics.test;
 
-import generics.dominio.*;
-import queue.dominio.Paciente;
-import queue.dominio.PrioridadeComparator;
+import generics.domain.*;
+import queue.domain.Paciente;
+import queue.domain.PrioridadeComparator;
 
 import java.util.Comparator;
 import java.util.List;

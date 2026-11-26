@@ -1,4 +1,4 @@
-package queue.dominio;
+package queue.domain;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

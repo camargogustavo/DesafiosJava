@@ -1,7 +1,7 @@
 package propagacao.test;
 
 import propagacao.domain.Propagacao;
-import propagacao.error.OperacaoInvalidaException;
+import propagacao.exception.OperacaoInvalidaException;
 
 public class PropagacaoTest {
     public static void main(String[] args){

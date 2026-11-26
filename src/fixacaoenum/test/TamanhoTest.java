@@ -1,6 +1,6 @@
 package fixacaoenum.test;
 
-import fixacaoenum.dominio.*;
+import fixacaoenum.domain.*;
 import fixacaoenum.inter.Vendavel;
 
 public class TamanhoTest {

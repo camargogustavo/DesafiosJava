@@ -1,4 +1,4 @@
-package fixacaoenum.dominio;
+package fixacaoenum.domain;
 
 public enum TamanhoBebida {
     PEQUENO(300, 5.000),

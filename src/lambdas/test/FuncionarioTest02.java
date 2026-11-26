@@ -1,9 +1,8 @@
 package lambdas.test;
 
-import lambdas.dominio.Funcionario;
+import lambdas.domain.Funcionario;
 
 
-import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;

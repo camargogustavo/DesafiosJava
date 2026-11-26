@@ -1,6 +1,6 @@
     package generics.test;
 
-    import generics.dominio.Livros;
+    import generics.domain.Livros;
 
     import java.util.*;
 

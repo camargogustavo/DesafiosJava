@@ -1,4 +1,4 @@
-package propagacao.error;
+package propagacao.exception;
 
 public class OperacaoInvalidaException extends Exception {
     public OperacaoInvalidaException(String message) {

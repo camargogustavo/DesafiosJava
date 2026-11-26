@@ -1,6 +1,6 @@
 package multiplasexception.domain;
 
-import multiplasexception.error.DivisaoPorZeroException;
+import multiplasexception.exception.DivisaoPorZeroException;
 
 public class Calculadora {
     public double dividir(double a, double b) throws DivisaoPorZeroException {

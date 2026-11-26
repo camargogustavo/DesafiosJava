@@ -1,7 +1,7 @@
 package multiplasexception.test;
 
 import multiplasexception.domain.Calculadora;
-import multiplasexception.error.DivisaoPorZeroException;
+import multiplasexception.exception.DivisaoPorZeroException;
 
 public class CalculadoraTest {
     public static void main(String[] args) {

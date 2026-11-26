@@ -1,7 +1,7 @@
 package queue.test;
 
-import queue.dominio.Paciente;
-import queue.dominio.PrioridadeComparator;
+import queue.domain.Paciente;
+import queue.domain.PrioridadeComparator;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

@@ -1,4 +1,4 @@
-package lambdas.dominio;
+package lambdas.domain;
 
 public class Funcionario {
     private String nome;

@@ -1,4 +1,4 @@
-package generics.dominio;
+package generics.domain;
 
 import java.util.ArrayList;
 import java.util.List;

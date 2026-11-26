@@ -1,4 +1,4 @@
-package generics.dominio;
+package generics.domain;
 
 public class Cachorro extends Animal {
     public Cachorro(String nome) {

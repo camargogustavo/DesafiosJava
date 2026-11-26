@@ -1,8 +1,7 @@
 package lambdas.test;
 
-import lambdas.dominio.Funcionario;
+import lambdas.domain.Funcionario;
 
-import javax.swing.event.ListDataEvent;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Consumer;

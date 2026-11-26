@@ -1,4 +1,4 @@
-package generics.dominio;
+package generics.domain;
 
 public class Livros implements Comparable<Livros> {
     private String nome;

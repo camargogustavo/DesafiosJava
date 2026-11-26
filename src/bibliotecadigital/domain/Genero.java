@@ -1,4 +1,4 @@
-package bibliotecadigital.dominio;
+package bibliotecadigital.domain;
 
 public enum Genero {
     HISTORIA("História"),

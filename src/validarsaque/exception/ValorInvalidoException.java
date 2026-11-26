@@ -1,4 +1,4 @@
-package validarsaque.error;
+package validarsaque.exception;
 
 public class ValorInvalidoException extends Exception {
     public ValorInvalidoException (String mensagemn){

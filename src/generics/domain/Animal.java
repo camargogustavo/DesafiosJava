@@ -1,4 +1,4 @@
-package generics.dominio;
+package generics.domain;
 
 public abstract class Animal {
     private String nome;

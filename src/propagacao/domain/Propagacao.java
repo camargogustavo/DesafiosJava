@@ -1,6 +1,6 @@
 package propagacao.domain;
 
-import propagacao.error.OperacaoInvalidaException;
+import propagacao.exception.OperacaoInvalidaException;
 
 public class Propagacao {
     public void metodoA() throws OperacaoInvalidaException{
