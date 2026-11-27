@@ -38,6 +38,8 @@ public class Repositorio<T> {
         return result;
     }
 
+
+
     public Optional<T> buscarPrimeiro(Predicate<T> regra) {
         for (T t : itens) {
             if (regra.test(t)) {
